@@ -1,0 +1,278 @@
+
+{
+	"buildFiles" : [ "/src/Phd/Android/ARArch/dependencies/tbb/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/multimedia/media/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"tbb-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tbb",
+			"buildCommand" : "/multimedia/media/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a --target tbb",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/concurrent_hash_map.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/concurrent_queue.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/concurrent_vector.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/dynamic_link.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/itt_notify.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/cache_aligned_allocator.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/pipeline.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/queuing_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/queuing_rw_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/reader_writer_lock.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/spin_rw_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/x86_rtm_rw_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/spin_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/critical_section.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/recursive_mutex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/condition_variable.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/tbb_thread.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/concurrent_monitor.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/semaphore.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/private_server.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/rml/client/rml_tbb.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/tbb_misc.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/tbb_misc_ex.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/task.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/task_group_context.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/governor.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/market.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/arena.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/scheduler.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/observer_proxy.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/tbb_statistics.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIE -fPIC -fstack-protector -Wformat -Wformat-security -D_FORTIFY_SOURCE=2 -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -frtti -fexceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/tbb_main.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				}
+			],
+			"output" : "/src/Phd/Android/ARArch/app/c++/static-libs/armeabi-v7a/libtbb.a",
+			"toolchain" : "11054535761658641274"
+		},
+		"tbbmalloc-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tbbmalloc",
+			"buildCommand" : "/multimedia/media/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a --target tbbmalloc",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbbmalloc/backend.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbbmalloc/large_objects.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbbmalloc/backref.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbbmalloc/tbbmalloc.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbb/itt_notify.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I../../../src -I../../../src/rml/include -I/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sources/cxx-stl/llvm-libc++/include -I../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -Oz -DNDEBUG  -fPIC   -D_GLIBCXX_HAVE_FENV_H --sysroot=/multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot -isystem /multimedia/media/opt/android-sdk/ndk/21.0.6113669/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -fpic -fPIC -D__TBBMALLOC_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -Wno-unused-private-field -fno-rtti -fno-exceptions -DUSE_PTHREAD -std=gnu++14  -c ",
+					"src" : "/src/Phd/Android/ARArch/dependencies/tbb/src/tbbmalloc/frontend.cpp",
+					"workingDirectory" : "/src/Phd/Android/ARArch/dependencies/tbb/compile/Release/armeabi-v7a"
+				}
+			],
+			"output" : "/src/Phd/Android/ARArch/app/c++/static-libs/armeabi-v7a/libtbbmalloc.a",
+			"toolchain" : "11054535761658641274"
+		}
+	},
+	"toolchains" : 
+	{
+		"11054535761658641274" : 
+		{
+			"cCompilerExecutable" : "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

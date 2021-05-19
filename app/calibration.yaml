@@ -1,0 +1,8 @@
+# camera intrinsics
+# Intrinsics for default (color) camera
+fx: 319.563964844
+fy: 319.531921387
+cx: 320.825622559
+cy: 239.955474854
+imagewidth: 640
+imageheight: 480

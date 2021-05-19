@@ -1,0 +1,3 @@
+/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86/CMakeFiles/edit_cache.dir
+/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86/CMakeFiles/rebuild_cache.dir
+/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86/CMakeFiles/apriltag.dir

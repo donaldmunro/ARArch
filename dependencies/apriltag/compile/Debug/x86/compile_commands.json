@@ -1,0 +1,181 @@
+[
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/apriltag.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/apriltag.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/apriltag.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/apriltag_pose.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/apriltag_pose.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/apriltag_pose.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/apriltag_quad_thresh.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/apriltag_quad_thresh.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/getopt.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/getopt.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/getopt.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/homography.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/homography.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/homography.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/image_u8x3.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8x3.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8x3.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/unionfind.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/unionfind.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/unionfind.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/pam.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/pam.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/pam.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/pjpeg-idct.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/pjpeg-idct.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/pnm.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/pnm.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/pnm.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/pjpeg.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/pjpeg.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/pjpeg.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/image_u8x4.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8x4.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8x4.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/workerpool.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/workerpool.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/workerpool.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/svd22.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/svd22.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/svd22.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/zhash.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/zhash.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/zhash.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/matd.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/matd.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/matd.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/time_util.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/time_util.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/time_util.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/zarray.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/zarray.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/zarray.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/image_u8.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/image_u8.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/zmaxheap.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/zmaxheap.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/zmaxheap.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/g2d.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/g2d.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/g2d.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/common/string_util.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/common/string_util.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/common/string_util.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tag16h5.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tag16h5.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tag16h5.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tag25h9.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tag25h9.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tag25h9.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tag36h11.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tag36h11.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tag36h11.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tagCircle21h7.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tagCircle21h7.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tagCircle21h7.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tagCircle49h12.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tagCircle49h12.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tagCircle49h12.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tagCustom48h12.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tagCustom48h12.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tagCustom48h12.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tagStandard41h12.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tagStandard41h12.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tagStandard41h12.c"
+},
+
+{
+  "directory": "/src/Phd/Android/ARArch/dependencies/apriltag/compile/Debug/x86",
+  "command": "/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/bin/clang  --target=i686-none-linux-android28 --gcc-toolchain=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk/latest/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I../../../.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apriltag.dir/tagStandard52h13.c.o   -c /src/Phd/Android/ARArch/dependencies/apriltag/tagStandard52h13.c",
+  "file": "/src/Phd/Android/ARArch/dependencies/apriltag/tagStandard52h13.c"
+}
+]

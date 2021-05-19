@@ -1,0 +1,2 @@
+cmake config: ../.cxx/cmake/debug/arm64-v8a/metadata_generation_stdout.txt
+cmake build: ../.cxx/cmake/debug/arm64-v8a/android_gradle_build_stdout_MAR_arm64-v8a.txt
